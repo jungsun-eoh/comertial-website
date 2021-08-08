@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.message-area {
+  height: 200px;
+  padding: 20px;
+  background: #e8e8e8;
+  overflow-y: scroll;
+  width: 400px;
+}
+
+.listing {
+  margin: 15px;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f3a597;
+  color: white;
+}
+
+.view-listings {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.logout {
+  float: right;
+}
